@@ -1,0 +1,9 @@
+# CVE-2022-24734 PoC
+
+An RCE can be obtained on MyBB's Admin CP in Configuration -> Add New Setting. The user must have a rights to add or update setting. This is tested on [MyBB 1.8.29](https://github.com/mybb/mybb/releases/tag/mybb_1829). 
+
+![CVE gif](./CVE-2022-24734.gif)
+
+## Sources:
+- https://github.com/mybb/mybb/
+- https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24734
